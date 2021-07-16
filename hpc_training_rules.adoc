@@ -92,7 +92,8 @@ OPEN: Hyperparameters and optimizer may be freely changed.
 
 == Run Results
 
-We follow MLPerf Training Rule 10 with the addition that data staging to node-local storage or I/O accelerators must also be timed as described in Rule 6.1 above.
+MLPerf Training submissions consists of the following three metrics. Metrics 1 and 2 are considered mandatory for a complete submission whereas metric 3 is considered optional:
+1) Strong scaling/Time to solution: see MLPerf Training xref:training_rules.adoc#section-k[Rule 11] with the addition that data staging to node-local storage or I/O accelerators must also be timed as described in Rule 6.1 above.
 
 You are encouraged to also report the additional metrics of the benchmark described in the MLPerf HPC v0.5 Metrics List (to be prepared).
 
